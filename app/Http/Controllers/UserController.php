@@ -132,7 +132,7 @@ class UserController extends Controller
             ->get();
         return DataTables::of($users)
             ->editColumn('departament_id', function ($row) {
-                return $row->departament->name;
+                return $row->departament->name ?? 'Sin Asignar';
             })
             ->addColumn('acciones', function ($row) {
                 return view('admin.users.buttons', compact('row'))->render();
