@@ -56,7 +56,6 @@ DB_PASSWORD=TU_CONTRASEÑA_DE_MYSQL
 -   `composer require yajra/laravel-datatables-oracle`
 -   `npm install jquery`
 -   `npm install sweetalert2`
--   `php artisan migrate:refresh --seed`
 -   `npm run dev`
 
 
@@ -159,9 +158,3 @@ Para ejecutar las pruebas, utiliza el siguiente comando:
 ## Autor
 
 -   [HenryMJL](https://github.com/HenryMJL)
-
-## Roadmap
-
--   Additional browser support
-
--   Add more integrations
